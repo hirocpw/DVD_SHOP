@@ -1,0 +1,232 @@
+body 
+	{
+		background-color: #616161;
+		margin:0;
+	}
+	
+h1,h2,h3,h4,h5,p 
+	{	
+		font-family: "Raleway";
+	}
+	
+.essay
+	{
+		text-align: left;
+	}
+	
+.title
+	{
+		text-align: center;
+	}
+
+	
+.movieHeading, .movieInfo
+	{
+		font-weight:bold;
+	}
+
+
+#front
+	{
+		width:300px;
+		height:700px;
+		border: 2px solid white;
+		margin-left:auto;
+		margin-right:auto;
+	}
+#movies
+	{
+		width:300px;
+		height:800px;
+		border: 2px solid white;
+		float:left;
+	}
+.conten-container
+	{
+		width:75%;
+		color:#f1f1f1;
+		text-align: center;
+		margin-left:25%;
+		padding:20px 20px;
+		height:100%;
+	}
+
+.shopphoto
+	{
+		display: block;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		margin-left:auto;
+		margin-right:auto;
+		height: 350px;
+		width:300px;
+	}
+
+.prev, .next 
+	{
+		cursor: pointer;
+		padding-right: 80px;
+		padding-left: 80px;
+		font-size:120%;
+		transition-duration: 0.3s
+	}
+
+.next:hover 
+	{
+		color: #000;
+	}
+.prev:hover 
+	{
+		color: #000;
+	}
+#footer
+    {
+        margin-left:25%;
+		width:80%;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        height: auto;
+    }
+	
+.sidebar
+	{
+		width: 25%;
+		background-color: #f1f1f1;
+		position: fixed;
+		height: 100%;
+		overflow: auto;
+	}
+	
+.DoctorStrange
+	{
+		max-width: 100%;
+		height: auto;
+	}
+	
+.welcome
+	{
+		display: block;
+		font-size:1.7em;
+		font-family: "Raleway";
+		color: #000;
+		padding: 8px 16px;
+		text-align: center;
+	}
+
+.JoinForm	
+	{	
+		display: inline-block;
+		box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		padding:0.01em 16px;
+		text-align: left;
+	}
+.moviebutton
+	{
+		padding: 12px 28px;
+		border-radius: 4px;
+		background-color: #4CAF50;
+		display: inline-block;
+		color: white;
+		cursor:pointer;
+	}
+.search
+	{
+		float:left;
+		position: fixed;
+		z-index:1;
+	}		
+#cusemail
+	{	
+		width:30%;
+	}
+#cusmobile
+	{
+		width:25%;
+	}
+#cusphone
+	{
+		width:25%;
+	}
+#postcode
+	{
+		width:25%;
+	}
+#introduction
+	{
+		text-align:left;
+	}
+#locationinfo
+	{
+		
+		height:900px;
+	}
+.location
+	{
+		display: block;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+.formtype
+	{
+		display:block;
+		padding:8px 16px;
+		outline:none;
+		width:80%;
+		border:1.5px solid #ccc;
+	}
+.requiredmarker 
+	{
+		font-size: 25px;
+		color:red;
+	}
+.joinbutton
+	{	
+		border:none;
+		padding:6px 16px;
+		vertical-align:middle;
+		color:#fff;
+		background-color:#8bc34a;
+		text-align:center;
+		cursor:pointer;
+	}
+ul 
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 25%;
+		background-color: #f1f1f1;
+		position: fixed;
+		height: 100%;
+		overflow: auto;
+	}
+
+
+li a 
+	{
+		display: block;
+		font-size:1.7em;
+		font-family: "Raleway";
+		color: #000;
+		padding: 8px 16px;
+		text-decoration: none;
+		transition-duration: 0.3s;
+	}
+
+li a.active 
+	{
+		background-color: #616161;
+		color: white;
+	}
+
+li a:hover:not(.active) 
+	{
+		background-color: #616161;
+		color: white;
+	}

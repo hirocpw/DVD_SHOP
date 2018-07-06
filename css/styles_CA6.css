@@ -1,0 +1,425 @@
+    input { 
+        margin-bottom: 10px;
+        }
+
+    label { float: left;
+        width: 120px;
+		padding-right: 10px;
+        text-align: right; 		}
+        
+    #submit {margin-left: 130px; }
+
+	
+   h1
+   {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        text-align: left;
+        
+   }
+   
+   
+
+   h3 
+   {
+    text-decoration: underline; 
+    
+    }
+    
+     ol
+    {   
+        
+        font-family: ComicSansMS, Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        
+    }    
+ 
+    p
+    {   
+        
+        font-family: ComicSansMS, Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        color: black;
+    } 
+    
+    ul
+    {
+        
+        font-family: ComicSansMS, Arial, Helvetica, sans-serif;
+        color: #a9f5f2;
+       
+    }
+    
+    dl
+    {
+        font-family: ComicSansMS, Arial, Helvetica, sans-serif;
+        
+    }
+    
+    body 
+    {
+    
+    background-attachment: fixed;
+   
+    }
+    
+    table, th, td
+    { 
+    
+    text-align: center;
+    border: 1px solid yellow;
+    font-size:110%;
+    font-family: Calibri, Arial, Helvetica, TimesnewRoman;
+    color: blue;
+    background-color: #2ECCFA
+    
+    }
+	
+    p.essay
+    {
+      font-family: arial, calibri, Timesnewroman;
+      font-size: 90%;
+    }
+    
+    .red
+    {
+        color: #ff0000;
+        
+    }
+    
+    .centre
+    {
+        text-align: center;
+        
+    }
+    
+    .right
+    {
+        text-align: right;
+        
+    }
+   
+   .justify
+    {   
+        text-align: justify;
+    
+    }
+    
+    .red
+    {
+        color:#ff0000;
+    
+    }
+    
+    .blue
+    {   
+        color:#0433ff;
+        }
+    
+    .white
+    {   
+    color: #FFFFFF;
+    
+    }
+    
+    .yellow
+    {   color: #e6e200;
+    
+    }
+    
+    ul.square
+    {
+        list-style-type: square;
+   
+   }
+   
+   ul.blue
+   {
+        color: blue;
+        
+   }
+   ol.roman
+   {
+        list-style-type: upper-roman;
+   }    
+   
+   ol.blue
+   {
+    color: #a9f5f2;
+   }
+   
+	p.warning
+	{
+		font-size: 60%;
+	}
+
+
+	.moviePoster
+	{
+   float: right;
+   margin: 5px;
+	
+	}
+
+	.movieBold
+	{
+	font-weight:bold;
+	
+	}
+
+	.movieHeading 
+	{
+	line-height:150%;
+	font-weight:bold;
+	
+	}
+    
+    
+    p.normal 
+    {
+    font-weight: normal;
+    
+    }
+
+    .thick 
+    {
+    font-weight: bold;
+   
+   }
+
+   p.italic 
+   {
+    font-style: italic;
+   
+   }
+   
+   #wrapper { background-color: #FCF189; 
+           
+           width: 100%;
+		    margin: 0 auto;
+           min-width: 960px;
+   }
+
+
+   #navbar
+    {
+        width: 178px;
+		background-color: #3498DB;
+		height: 600px;
+		
+		
+       
+        /*border: 2px solid #000000;*/
+        
+    }
+	
+	#navbar li
+    {
+        
+        list-style-type: none;
+        /*border: 2px solid #000000;*/
+        
+    }
+    
+     #navmenu
+     {
+         padding: 0px;
+         margin: 0px;
+         white-space: nowrap;
+         position: relative;
+         list-style-type: none;
+		
+         
+     }
+     
+     #navmenu
+     {
+         display: block;
+         float: left;
+         width: auto;
+     }
+     
+#container
+    {
+        width: 960px;
+        min-width: 960px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        /*border: 2px solid #000000;*/  
+    }
+    
+    #header
+    {
+       background-color: #3498DB;
+       color: #00FFFF;  
+       padding: 10px 10px 10px 155px;
+       height:150px;
+		 background-image: url(../images/logo.jpg); 
+		 background-repeat: no-repeat;
+
+    }
+        
+    #content-container
+    {
+        float: left;
+        width: 100%;
+        /*border: 2px solid #000000;*/
+    }
+
+
+        #navigation
+    {
+        margin-top: 0px;
+        
+        clear: left;
+        float: left;
+        width: 19%;
+        padding: 0px 0px 0px 0px;
+        /*border: 2px solid #000000;*/
+}
+
+    
+    #main-content
+    {
+        float: right;
+        width: 76%;
+        padding: 0px 20px 20px 0px;
+        margin-top: 0px;
+        display: inline;
+        /*border: 2px solid #000000;*/  
+    }
+	
+	
+    
+    #footer
+    {
+        clear: left;
+        background-color: #3498DB;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        height: auto;
+        
+        /*border: 2px solid #000000;*/  
+    }
+
+    a.navbutton
+     {
+         border: 3px outset #FFFFFF;
+         display: block;
+         background-image:url(../button/nor_button.jpg);
+         text-decoration: none;
+         color: #ededed;
+         font-family:ComicSansMS, Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 15px;
+         width: 172px;
+         height: 26px;
+         padding-top: 6px;
+         text-align: center;
+     }
+     
+         a.navbutton2
+     {
+         border: 3px outset #eecc44;
+         display: block;
+         background-image:url(../current_button.jpg);
+		 background-color: white;
+         text-decoration: none;
+         color: black;
+         font-family:ComicSansMS, Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 15px;
+         width: 172px;
+         height: 26px;
+         padding-top: 6px;
+         text-align: center;
+     }
+     a.navbutton:hover, a.navbutton2:hover
+     {
+         border: 3px outset #fffae6;
+         background-color: white;
+         color: black;
+     }
+     
+     .nondisplay
+     {
+        display: none;
+     }
+     
+.mobilemarker
+{
+   display: none;
+}
+     
+.phonemarker
+{
+   display: none;
+}
+     
+     .imagelink
+     {
+         border: 3px outset #606060;  
+     }
+     
+	 
+	
+#compnote p{
+    font-size: 16px;
+    margin-bottom: 3px;
+    text-align:right;
+    color:red;
+}
+
+#joinform  p{
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+#joinform fieldset {
+   border: 2px solid white;
+   margin-bottom:20px;
+}
+
+#joinform legend {
+   font-style: italic;
+   font-weight: bold;
+   color: white;
+}
+
+#joinform label{
+   float:left;
+	width: 130px; 
+	display: block; 
+	text-align: left; 
+	padding-right: 10px;
+   margin-top: 5px; 
+}
+
+#joinform input {
+   margin-top: 5px; 
+} 
+
+#joinform select{
+   margin-top: 5px; 
+} 
+
+.requiredmarker {
+   font-size: 16px;
+   color:red;
+} 
+
+.popup {
+    display: none;
+    background-color: #76B6A2;
+    padding: 0 8px 8px 8px;
+    color: black;
+}  
+
+#formbuttons {
+   margin-left: 10px;
+   margin-bottom:20px;
+}
